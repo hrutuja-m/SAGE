@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+*{
+    
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+  padding:25px;
+  position: relative;
+}
+h5.asd{
+  padding:5px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+.join_us{
+  background-image: url("img/neon.jpeg");
+  background-repeat: no-repeat;
+  padding: 15rem;
+  background-position: center center;
+  background-size: 65%;
+  
+}
+form{
+  position:relative;
+}
+div.text_block{
+  width: 100%;
+  background-color:transparent;
+  padding:0 15px 0 15px;
+  margin:0;
+  z-index: 2;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #bfd5db;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(216, 216, 216);
+  outline: none;
+}
+.btn {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+  
+
+.btn-grad {background-image: linear-gradient(to right, #06beb6 0%, #48b1bf  51%, #06beb6  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+  #dnt {
+  background-color:#19595b;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  max-width: 300px;
+  text-align: center;
+  
+  align-items: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+	
+
